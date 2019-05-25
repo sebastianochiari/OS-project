@@ -1,8 +1,21 @@
-## Anno accademico: 2017/2018 - Università degli Studi di Trento
-# Progetto Laboratorio Sistemi Operativi 2018 - Custom Shell
-### Realizzazione a cura di: Tommaso Bosetti 185286 - Sebastiano Chiari 185858 - Marta Toniolli 187839
-Implementare una shell interattiva con le seguenti caratteristiche:
-* Deve accettare almeno due argomenti per definire i nomi dei file di “log”, su cui andranno riportati l'output stream e l'error stream
-* Deve poter eseguire almeno comandi basilari come ls, wc e date
-* Deve poter accettare il carattere di pipe
-* Mostra un prompt personalizzato che accetta i comandi dati (nel limite delle possibilità) 
+# CUSTOM SHELL project
+## Operative Systems (UNITN)
+
+Teacher: **Bruno Crispo**
+
+Teacher assistant: **Eugenio Naimoli**
+
+The goal of this project was to implement an interactive shell with the following characteristics:
+* must accept at least two arguments to define the log files' names. Output and error streams must be reported into the log files.
+* must execute basic bash commands, as `ls`, `wc` and `date`.
+* must accept the pipe (`|`) character.
+* must show a custom prompt that accepts the given commands
+
+You can find all the specifications in the *project-specifications.pdf* file above (italian only).
+
+The entire process is described into the *project-documentation.pdf* file above (italian only).
+
+## Group Members
+* [Tommaso Bosetti](https://github.com/tommasobosetti)
+* [Sebastiano Chiari](https://github.com/sebastianochiari)
+* [Marta Toniolli](https://github.com/toniollimarta)
